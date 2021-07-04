@@ -1,1 +1,103 @@
 @import url(reset.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&family=Playfair+Display:ital@1&display=swap');
+/* font-family: 'Otomanopee One', sans-serif;
+font-family: 'Playfair Display', serif;*/
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Otomanopee One', sans-serif;
+}
+p{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2em; 
+}
+h1{
+    font-size: 2em;
+}
+h3{
+    font-size: 1.8em;
+}
+h4{
+    font-size: 1.6;
+}
+h5{
+    font-size: 1.5;
+}
+
+body{
+    width: 100%;
+    height: auto;
+}
+header{
+    background-color: black;
+    height: 300px;
+}
+header nav{
+    color:rgb(164, 164, 164);
+    padding: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+h1{
+    margin: 10px 0;
+    color: white;
+}
+main{
+   width: 80%;
+   position: relative;
+   top: -30px;
+   margin: 0 auto;
+   
+
+   
+}
+main section{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    
+    /* flex-wrap: wrap; permite que los elementos salten a otra línea */
+   
+}
+main section figure{
+    width: 50%;
+
+}
+
+img{
+    display: inline-block;
+    width: 600px;
+    height: auto;
+}
+
+/* footer */
+footer section:first-child{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    padding-left: 40px;
+}
+/* fin footer */
+
+.titulo_escondido{
+    color: antiquewhite;
+    position: absolute;
+    text-align: center;
+    text-shadow: 1px 1px black;
+}
+.titulo_escondido h5{
+    position: absolute;
+    top: 150px;
+    left: -110px;
+    display: none;
+}
+.titulo_escondido h4{
+    position: absolute;
+    top: 190px;
+    left: 600px;
+    display:none
+}
+
+
+
