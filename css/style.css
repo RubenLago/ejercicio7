@@ -99,5 +99,18 @@ footer section:first-child{
     display:none
 }
 
+section figure:hover{
+     transition: all 0.8s;
+     transform: rotate(10deg);
+     overflow: hidden;
+     display: block;
+     
+   
+     
+}
+section img:hover{
+    
+   
+}
 
 
